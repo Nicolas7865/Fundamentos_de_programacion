@@ -1,3 +1,2 @@
 - 👋hola, me llamo Nicolás Orozco Jiménez 
-- 👀 Me interesa aprender sobre la programación y otras cosas sobre computadora 
 -Soy estudiante de la universidad autónoma benito juarez de oaxaca de la escuela de ciencias 
