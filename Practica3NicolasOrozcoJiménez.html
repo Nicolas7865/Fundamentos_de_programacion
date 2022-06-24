@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Tercera Practica</title>
+</head>
+<body>
+<h3>el resultado se muestra en consola</h3>
+<script languaje="javascript">
+
+    let num1 = prompt("Ingresa el primer número");
+    let op = prompt("Ingresa el operador \n las opciones a elegir son +, -, *, /, %, **");
+    let num2 = prompt("Ingresa el segundo número");
+    if(op == ('+') | op==('-') | op == ('*') | op == ('/')| op == ('%')| op == ('**')){
+    if (op == '+') {
+        let sum = parseFloat(num1) + parseFloat(num2);
+        console.log("El resultado de la suma entre " + num1, "y " + num2, "es: "+ sum);
+    }
+    else if (op == '-') {
+        let res = parseFloat(num1) - parseFloat(num2);
+        console.log("El resultado de la resta entre " + num1, "y " + num2, " es: "+ res);
+    }
+    else if (op == '*') {
+        let mul = parseFloat(num1) * parseFloat(num2);
+        console.log("El resultado de la multiplicacion de " + num1, "y " + num2, " es: "+ mul);
+    }
+    else if (op == '/') {
+        let divi = parseFloat(num1) / parseFloat(num2);
+        console.log("El resultado de la division entre " + num1, "y " + num2, " es: "+ divi);
+    }
+    else if (op == '%') {
+        let modu = parseFloat(num1) % parseFloat(num2);
+        console.log("El resultado del modulo de " + num1, "y " + num2, " es: "+ modu);
+    }
+    else if (op == '**') {
+        let divi = parseFloat(num1) ** parseFloat(num2);
+        console.log("El resultado de la exponenciacion de " + num1, "y " + num2, " es: "+ divi);
+    }
+}
+    else{
+        window.alert("Operador invalido");
+    }
+  </script>
+</body>
+</html>
